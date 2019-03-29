@@ -10,12 +10,13 @@ namespace RPSLS_Project
     {
         //member variables (has a….also defined as attributes of the class)
         
-
+           Random RandomInt;
 
 
         //constructor (build this thing)
         public AI()
         {
+             RandomInt = new Random();
             //AIGestureChoice = Gestures;
 
         }
@@ -29,6 +30,7 @@ namespace RPSLS_Project
         }
         public override void ChooseGesture()
         {
+            int Results = RandomInt.Next(0, 4);
             //randomizer needed
         }
     }
