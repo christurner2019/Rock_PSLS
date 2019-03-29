@@ -9,12 +9,12 @@ namespace RPSLS_Project
     class human : Player
     {
         //member variables (has a….also defined as attributes of the class)
-        Player HumanGestureChoice;
+        //Player HumanGestureChoice;
 
         //constructor (build this thing)
         public human()
         {
-            HumanGestureChoice = Gestures;
+            //humanGestureChoice = Gestures;
         }        
 
 

@@ -9,22 +9,27 @@ namespace RPSLS_Project
     class AI : Player
     {
         //member variables (has a….also defined as attributes of the class)
-        Player AIGestureChoice;
+        
 
 
 
         //constructor (build this thing)
         public AI()
         {
-            AIGestureChoice = Gestures;
+            //AIGestureChoice = Gestures;
 
         }
 
 
         //member methods (can do)
-        public virtual void InputName()
+        public override void InputName()
         {
-            Console.WriteLine("AI");
-            name = Console.ReadLine();
+
+            name = "Tim";
         }
+        public override void ChooseGesture()
+        {
+            //randomizer needed
+        }
+    }
 }

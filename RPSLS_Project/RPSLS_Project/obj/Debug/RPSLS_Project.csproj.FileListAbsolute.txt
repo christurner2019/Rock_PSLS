@@ -1,2 +1,9 @@
 C:\Users\Owner\source\repos\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csprojAssemblyReference.cache
 C:\Users\Owner\source\repos\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\bin\Debug\RPSLS_Project.exe.config
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\bin\Debug\RPSLS_Project.exe
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\bin\Debug\RPSLS_Project.pdb
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.exe
+C:\Users\Owner\Desktop\DevCodeCamp assignments\Rock_PSLS\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.pdb
