@@ -1,0 +1,2 @@
+C:\Users\Owner\source\repos\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\RPSLS_Project\RPSLS_Project\obj\Debug\RPSLS_Project.csproj.CoreCompileInputs.cache
