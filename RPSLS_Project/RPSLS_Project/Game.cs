@@ -13,8 +13,9 @@ namespace RPSLS_Project
         public Player PlayerTwo;
         int NumberOfWins;
         int currentRound;
+        string AddRules;
 
-
+        
         //constructor
         public Game()
         {
@@ -23,7 +24,7 @@ namespace RPSLS_Project
         //member methods (Can Do)
         public void RunGame()
         {
-            //Add rules
+            DisplayRules();
             DefinePlayers();
             PlayerOne.InputName();
             PlayerTwo.InputName();
@@ -37,6 +38,14 @@ namespace RPSLS_Project
                 CompareGestures();
             } while (NumberOfWins <2);
 
+        }
+
+        public void DisplayRules()
+        {
+            Console.WriteLine("Rules: Rock crushes Scissors, Scissors cuts Paper, Paper covers Rock, " +
+                "Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, " +
+                "Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock and Spock " +
+                "vaporizes Rock.");
         }
         public void DefinePlayers()
         {
