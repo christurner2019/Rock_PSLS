@@ -31,7 +31,7 @@ namespace RPSLS_Project
             Console.WriteLine("What is your name?");
             name = Console.ReadLine();
         }
-        public virtual void ChooseGesture()
+         public virtual void ChooseGesture()  //add virtual back in after public if AI code doesnt function correctly.
         {
             Console.WriteLine("Please enter a gesture: Rock, Paper, Scissors, Lizard, or Spock");
             gesture = Console.ReadLine();

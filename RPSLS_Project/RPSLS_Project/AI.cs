@@ -28,10 +28,39 @@ namespace RPSLS_Project
 
             name = "Tim";
         }
-        public override void ChooseGesture()
+        public override void ChooseGesture()  //add void instead of string and delete switch below if needed. 
         {
             int Results = RandomInt.Next(0, 4);
-            //randomizer needed
+            Console.WriteLine(RandomInt.Next(0, 4));
+
+            switch(Results)
+
+            {
+                case 1:
+                    Console.WriteLine("Rock");
+                    break;
+                case 2:
+                    Console.WriteLine("Paper");
+                    break;
+                case 3:
+                    Console.WriteLine("Scissors");
+                    break;
+                case 4:
+                    Console.WriteLine("Lizard");
+                    break;
+                case 5:
+                    Console.WriteLine("Spock");
+                    break;
+                default:
+                    Console.WriteLine("Default case");
+                    break;
+
+            }
+
+       
+
+
         }
+        //get integer choices coming from AI to output strings-Rock, Paper, etc
     }
 }
