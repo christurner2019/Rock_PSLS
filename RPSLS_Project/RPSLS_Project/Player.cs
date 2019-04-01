@@ -22,7 +22,7 @@ namespace RPSLS_Project
         //constructor
         public Player()
         {
-            Gestures = new List<string>() { "Rock", "Paper", "Scissor", "Lizard", "Spock" };
+            Gestures = new List<string>() { "rock", "paper", "scissor", "lizard", "spock" };
             name = null;
             score = 0;
         }
@@ -35,8 +35,8 @@ namespace RPSLS_Project
         }
          public virtual void ChooseGesture()  //add virtual back in after public if AI code doesnt function correctly.
         {
-            Console.WriteLine(name + ", " + " Please enter a gesture: Rock, Paper, Scissors, Lizard, or Spock");
-            gesture = Console.ReadLine();
+            Console.WriteLine(name + ", " + " Please enter a gesture: rock, paper, scissors, lizard, or spock");
+              gesture = Console.ReadLine();
 
             //good place for switch if time. a nice to have, not a must have
         }

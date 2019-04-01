@@ -43,22 +43,22 @@ namespace RPSLS_Project
 
             {
                 case 1:
-                    Console.WriteLine("Rock");
+                    Console.WriteLine("rock");
                     break;
                 case 2:
-                    Console.WriteLine("Paper");
+                    Console.WriteLine("paper");
                     break;
                 case 3:
-                    Console.WriteLine("Scissors");
+                    Console.WriteLine("scissors");
                     break;
                 case 4:
-                    Console.WriteLine("Lizard");
+                    Console.WriteLine("lizard");
                     break;
                 case 5:
-                    Console.WriteLine("Spock");
+                    Console.WriteLine("spock");
                     break;
                 default:
-                    Console.WriteLine("Default case");
+                    Console.WriteLine("default case");
                     break;
 
             }
