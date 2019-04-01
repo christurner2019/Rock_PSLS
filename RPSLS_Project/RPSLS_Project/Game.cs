@@ -69,33 +69,33 @@ namespace RPSLS_Project
             {
                 Console.WriteLine("It is a tie, keep playing!");
             }
-            else if ((PlayerOne.gesture == "Rock") && (PlayerTwo.gesture == "Scissors" || 
+            else if (PlayerOne.gesture == "Rock" && (PlayerTwo.gesture == "Scissors" || 
                 PlayerTwo.gesture == "Lizard"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
 
             }  
-            else if (PlayerOne.gesture == "Scissors" && PlayerTwo.gesture == "Paper" || 
-                PlayerTwo.gesture == "Lizard")
+            else if (PlayerOne.gesture == "Scissors" && (PlayerTwo.gesture == "Paper" || 
+                PlayerTwo.gesture == "Lizard"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
             }
-            else if (PlayerOne.gesture == "Paper" && PlayerTwo.gesture == "Rock" || 
-                PlayerTwo.gesture == "Spock")
+            else if (PlayerOne.gesture == "Paper" && (PlayerTwo.gesture == "Rock" || 
+                PlayerTwo.gesture == "Spock"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
             }
-            else if (PlayerOne.gesture == "Lizard" && PlayerTwo.gesture == "Spock" || 
-                PlayerTwo.gesture == "Paper")
+            else if (PlayerOne.gesture == "Lizard" && (PlayerTwo.gesture == "Spock" || 
+                PlayerTwo.gesture == "Paper"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
             }
-            else if (PlayerOne.gesture == "Spock" && PlayerTwo.gesture == "Scissors" || 
-                PlayerTwo.gesture == "Rock")
+            else if (PlayerOne.gesture == "Spock" && (PlayerTwo.gesture == "Scissors" || 
+                PlayerTwo.gesture == "Rock"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
