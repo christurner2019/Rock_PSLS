@@ -15,6 +15,8 @@ namespace RPSLS_Project
         public int score;
         public string name;
         public string gesture;
+        private static object lower;
+
 
 
         //constructor
@@ -29,11 +31,11 @@ namespace RPSLS_Project
         public virtual void InputName()
         {
             Console.WriteLine("What is your name?");
-            name = Console.ReadLine();
+            name = Console.ReadLine();  //return name capitalized-TODO
         }
          public virtual void ChooseGesture()  //add virtual back in after public if AI code doesnt function correctly.
         {
-            Console.WriteLine("Please enter a gesture: Rock, Paper, Scissors, Lizard, or Spock");
+            Console.WriteLine(name + ", " + " Please enter a gesture: Rock, Paper, Scissors, Lizard, or Spock");
             gesture = Console.ReadLine();
 
             //good place for switch if time. a nice to have, not a must have

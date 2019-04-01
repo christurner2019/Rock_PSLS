@@ -11,7 +11,7 @@ namespace RPSLS_Project
         //member variables (Has a)
         public Player PlayerOne;
         public Player PlayerTwo;
-        int NumberOfWins;
+        readonly int NumberOfWins;
         int currentRound;
         string AddRules;
 
@@ -22,7 +22,7 @@ namespace RPSLS_Project
             
         }
         //member methods (Can Do)
-        public void RunGame()
+        public virtual void RunGame()
         {
             DisplayRules();
             DefinePlayers();
