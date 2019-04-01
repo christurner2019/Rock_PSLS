@@ -69,8 +69,8 @@ namespace RPSLS_Project
             {
                 Console.WriteLine("It is a tie, keep playing!");
             }
-            else if (PlayerOne.gesture == "Rock" && PlayerTwo.gesture == "Scissors" || 
-                PlayerTwo.gesture == "Lizard")
+            else if ((PlayerOne.gesture == "Rock") && (PlayerTwo.gesture == "Scissors" || 
+                PlayerTwo.gesture == "Lizard"))
             {
                 Console.WriteLine("Player One wins this round!");
                 PlayerOne.score++;
